@@ -2,20 +2,9 @@
 body {
     line-height: 1.6;
     color: #bad6f7;
-    /* background: #000; */
-    /* background: red; */
-    /* background-color: #D2D2D2; */
-    background: linear-gradient(to right, #1c1c1c, #343a40, #1c1c1c);
+    background: linear-gradient(to right, #141e30, #243b55);
+    /* background: linear-gradient(to right, #1c1c1c, #343a40, #1c1c1c); */
 
-    /* background-image:
-    repeating-linear-gradient(
-        to right, transparent 0 100px,
-        #25283b22 100px 101px
-    ),
-    repeating-linear-gradient(
-        to bottom, transparent 0 100px,
-        #25283b22 100px 101px
-    ); */
     font-size: 18px;
     font-weight: 400;
     font-family: hubot-sans !important;
@@ -30,7 +19,7 @@ body {
   #page {
     position: relative;
     transition: 1s all ease-in-out;
-    background-color: rgba(255, 255, 255, 0.05);
+    /* background-color: rgba(255, 255, 255, 0.05); */
   }
   #page.menuopen {
     opacity: 0.6;
@@ -45,7 +34,7 @@ body {
     justify-content: center;
     align-items: center;
     /* background: #222; */
-    background: linear-gradient(to right, #1c1c1c, #343a40, #1c1c1c);
+    /* background: linear-gradient(to right, #1c1c1c, #343a40, #1c1c1c); */
 
     color: #6782a2;
     position: relative;
@@ -76,7 +65,7 @@ body {
         to bottom, transparent 0 100px,
         #25283b22 100px 101px
     ); */
-    background: linear-gradient(to right, #1c1c1c, #343a40, #1c1c1c);
+    /* background: linear-gradient(to right, #1c1c1c, #343a40, #1c1c1c); */
 
     opacity: 0.5;
     height: 100%;
@@ -120,7 +109,7 @@ body {
     margin: 0 auto;
     top: 50px;
     /* background-color: rgba(255, 255, 255, 0.05); */
-    background: linear-gradient(to right, #1c1c1c, #343a40, #1c1c1c);
+    /* background: linear-gradient(to right, #1c1c1c, #343a40, #1c1c1c); */
 
     border-radius: 200px;
     z-index: 9;
@@ -142,7 +131,7 @@ body {
     transition: 0.3s all cubic-bezier(0.075, 0.82, 0.165, 1) 0.6s;
   }
   header nav button {
-    background: rgba(0, 0, 0, 0.3);
+    /* background: rgba(0, 0, 0, 0.3); */
     -webkit-backdrop-filter: blur(5px);
             backdrop-filter: blur(5px);
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -215,12 +204,18 @@ body {
     margin-top: 0.5vh;
   }
   p{
-    color: black;
+    color: rgb(255, 254, 254);
     text-align: center;
   }
 
 
 #Projects{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aqua;
+    text-align: center;
+    margin-top: 0.5vh;
+}
+#Testimonials{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: aqua;
     text-align: center;
