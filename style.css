@@ -213,9 +213,7 @@ body {
   color: #fff;
 }
 
-h2 {
-  color: #333;
-}
+
 
 .features-grid {
   display: grid;
@@ -240,6 +238,21 @@ h3 {
   font-weight: bold;
 }
 
+#project-submission{
+  text-align: center;
+  margin-top: 20px;
+}
+
+#Project{
+  font-size: 30px;
+  color: #fff;
+  margin-top: 100px;
+}
+#project{
+  font-size: 25px;
+  color: #fff;
+}
+
 
 
 #footer{
@@ -255,3 +268,4 @@ h3 {
   text-decoration: none;
   color: #fff;
 }
+
