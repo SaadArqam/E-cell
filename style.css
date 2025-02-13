@@ -2,12 +2,14 @@
 
 @font-face {
   font-family: Myfont;
-  src: url(Veriona.otf);
+  src: url(fonts/Veriona.otf);
 }
+
 @font-face {
   font-family: Myfont2;
-  src: url(./Fritz.ttf);
+  src: url(fonts/Fritz.ttf);
 }
+
 body {
     line-height: 2;
     color: #bad6f7;
@@ -31,6 +33,7 @@ body {
   
   #vision{
     display: flex;
+    line-height: 1.5;
     min-height: 100vh;
     padding: 50px;
     justify-content: center;
@@ -75,16 +78,18 @@ body {
   }
   header nav {
     display: flex;
-    height: 100px;
+    /* margin-top: 10rem; */
+    height: 60px;
     justify-content: center;
     align-items: center;
-    padding: 0 20px;
+    padding: 0 200px;
     position: fixed;
+    gap: 300px;
     left: 0;
     right: 0;
-    width: 500px;
+    width: 950px;
     margin: 0 auto;
-    top: 50px;
+    top: 140px;
     border-radius: 200px;
     z-index: 9;
     -webkit-backdrop-filter: blur(5px);
@@ -93,15 +98,15 @@ body {
     transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1) 0.2s;
   }
   header nav a {
-    color: #bad6f7;
+    color: #fff;
     text-decoration: none;
+    text-transform: capitalize;
     font-weight: 700;
     display: block;
     padding: 10px 20px;
     line-height: 1;
     font-size: 15px;
     letter-spacing: 2px;
-    text-transform: lowercase;
     transition: 0.3s all cubic-bezier(0.075, 0.82, 0.165, 1) 0.6s;
   }
   header nav button {
@@ -111,12 +116,12 @@ body {
     position: absolute;
     z-index: 99;
     left: 0;
-    margin: auto;
+    margin: 0 auto;
     right: 0;
     top: 0;
     bottom: 0;
-    width: 60px;
-    height: 60px;
+    width: 30px;
+    height: 30px;
     border-radius: 100%;
     outline: 0;
     border: 0;
@@ -125,8 +130,8 @@ body {
     transform: scale(0);
   }
   header nav button span {
-    width: 40%;
-    background: #fff;
+    width: 50%;
+    background: #715858;
     height: 2px;
     display: block;
     margin: 5px auto;
@@ -137,7 +142,7 @@ body {
     border-color: rgba(255, 255, 255, 0.5);
   }
   header nav button:hover span {
-    margin: 10px auto;
+    margin: 30px auto;
   }
   
   header.sticky #logo {
@@ -149,8 +154,8 @@ body {
   header.sticky nav {
     top: 20px;
     padding: 0;
-    width: 90px;
-    height: 90px;
+    width: 40px;
+    height: 40px;
     transition-delay: 0.5s;
   }
   header.sticky nav button {
@@ -174,13 +179,15 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #fff;;
+    /* color: #bad6f7; */
     text-align: center;
     font-size: 48px;
 
   }
   .about{
-    color: rgb(255, 254, 254);
+    /* color: rgb(255, 254, 254); */
     font-family: Myfont;
+    color: #bad6f7;
     text-align: center;
     font-size: 25px;
   }
@@ -188,20 +195,14 @@ body {
 
 #Projects{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: aqua;
-
     margin-top: 0.5vh;
     font-size: 3rem;
     margin-left: 4rem;
 }
-.project{
-  color: white;
-  margin-left: 5rem;
-}
+
 
 #Testimonials{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    /* color: aqua; */
     text-align: center;
     margin-top: 0.5vh;
 }
@@ -267,14 +268,13 @@ h3 {
 #Project{
   font-size: 48px;
   color: #fff;
-
-  /* margin-top: 100px; */
   margin-bottom: -100px;
   font-family: Myfont;
 }
 #project{
   font-size: 25px;
-  color: #fff;
+  /* color: #fff; */
+  color: #bad6f7;
   font-family: Myfont;
 }
 
@@ -305,7 +305,7 @@ h3 {
   width: 40px;
   height: 40px;
   background-size: contain;
-  background-image: url(./Down\ Arrow\ Icon.svg);
+  background-image: url(images/Down\ Arrow\ Icon.svg);
 }
 
 .bounce {
@@ -450,11 +450,13 @@ h3 {
 
 .gallery {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); 
+    grid-template-columns: repeat(2, 1fr); 
     gap: 40px; 
     padding: 20px;
     width: 90%;
     max-width: 1200px;
+    margin-left: 15%;
+
 }
 #footer{
   width: 100vw;
