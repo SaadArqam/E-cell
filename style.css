@@ -20,7 +20,7 @@ body {
       /* background-image: url(https://i.pinimg.com/originals/7c/c4/9a/7cc49a055ab0ecd39c10548ae6c18f8e.gif); */
       /* background-image: url(https://i.pinimg.com/originals/e9/e8/70/e9e8705b4e23c2e9c89b3ae160a4656d.gif); */
       /* background-image: url(https://i.pinimg.com/736x/d5/53/0a/d5530ad7e2d5ec49ad76f3bfeca6e958.jpg); */
-      background-color: #111;
+      /* background-color: #111; */
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-size: 100% 100%;
@@ -48,13 +48,10 @@ body {
     padding: 0px;
     justify-content: center;
     align-items: center;
-    /* color: #6782a2; */
-    /* background: linear-gradient(to right, #000428, #004e92);
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent; */
     position: relative;
     font-family: "Cinzel", serif;
     margin-bottom: 60px;
+
   }
   .gradient-text {
     background: linear-gradient(to right, #000428, #004e92);
@@ -399,6 +396,7 @@ h3 {
 
   #testimonials{
     margin-top: 150px;
+ 
   }
   #Testimonials{
     font-size: 48px;
@@ -476,15 +474,19 @@ h3 {
 }
 
 .gallery {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); 
-    gap: 40px; 
-    padding: 20px;
-    width: 90%;
-    max-width: 1200px;
-    margin-left: 15%;
-
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 40px; 
+  padding: 20px;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto; 
 }
+
 #footer{
   width: 100vw;
   height: 10rem;
