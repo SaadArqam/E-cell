@@ -81,24 +81,6 @@ button:hover {
     transform: scale(1.05);
 }
 
-.register-button {
-    display: inline-block;
-    width: 100%;
-    text-align: center;
-    padding: 10px;
-    background-color: #007BFF; 
-    color: white;
-    border-radius: 4px;
-    text-decoration: none;
-    margin-top: 10px;
-    transition: background-color 0.3s, transform 0.3s ease;
-}
-
-.register-button:hover {
-    background-color: #0056b3;
-    transform: scale(1.05); 
-}
-
 .forgotpassword {
     margin-top: 15px;
 }
